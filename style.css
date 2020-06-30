@@ -4,12 +4,14 @@ h1 {
 
 }
 
+h2 {
+    font-size: 30px;
+}
+
 body {
     margin: 0;
-    font-family: 'Abel', sans-serif;
-    font-family: 'Crimson Text', serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+
    
 }
 
@@ -23,6 +25,8 @@ body {
     float: left;
     margin-left: 5%;
     margin-right: 2%;
+    background-color: white;
+    padding: 2px;
 }
 
 .half-width img {
@@ -37,6 +41,7 @@ body {
 
 section {
     height: 500px;
+    padding-bottom: 100px;
 }
 
 .button {
@@ -47,4 +52,43 @@ section {
     border-radius: 5px;
     color:wheat;
     font-weight: bolder;
+}
+
+
+.dream-area {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.shado {
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.experiences-area {
+
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stock{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#Baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, green );
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
